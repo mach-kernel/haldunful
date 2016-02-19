@@ -1,4 +1,6 @@
 # haldunful
+![Are we happy?](http://cse.poly.edu/haldun/haldun.jpg)
+
 RESTful Haldun Markov Bot. Powered by [Grape](https://github.com/zolrath/marky_markov) and [marky_markov](https://github.com/zolrath/marky_markov) disgracefully uses disk for persistence because it's a 15 minute joke. Any/all contributions accepted - just make a pull request!
 
 Make requests against the live version at: http://haldunful.herokuapp.com/v1
