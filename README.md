@@ -11,7 +11,7 @@ Your phrases and sayings have generated discussion and legend around the Poly CS
 git clone https://github.com/mach-kernel/haldunful.github
 cd haldunful 
 bundle install
-rails
+rails s
 ```
 
 ## Routes
@@ -44,6 +44,14 @@ What would Haldun say?
 #### Errors
 
 There's a catchall in `Haldunful::V1` that returns a `500` with some info from the thrown exception, in a JSON object.
+
+## Learn from CSV
+
+I have adopted [this spreadsheet and its format](https://docs.google.com/spreadsheets/d/1pMBLXOh-xjIKd10OxRnh-Izumjqkz8dYM7pPSyH8OoE/edit#gid=0)
+
+```bash
+rake learn:from_csv\["/path/to/haldun.csv","http://haldunful.herokuapp.com"\]
+```
 
 ## Changelog
 

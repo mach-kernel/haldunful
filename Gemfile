@@ -8,6 +8,10 @@ gem 'marky_markov', '~> 0.3.5'
 gem 'rails', '4.2.5.1'
 # Strong validation because we're serious people
 gem 'hashie-forbidden_attributes'
+# Debugger
+gem 'pry'
+# Used in some Rake tasks
+gem 'httparty'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
