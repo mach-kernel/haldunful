@@ -1,6 +1,8 @@
 # haldunful
 RESTful Haldun Markov Bot. Powered by [Grape](https://github.com/zolrath/marky_markov) and [marky_markov](https://github.com/zolrath/marky_markov) disgracefully uses disk for persistence because it's a 15 minute joke/
 
+Make requests against the live version at: http://haldunful.herokuapp.com/v1
+
 ## Getting Started
 ```bash
 git clone https://github.com/mach-kernel/haldunful.github
