@@ -22,8 +22,24 @@ module Haldunful
     params do 
       requires :word_count, type: Integer, desc: 'How many words?'
     end
-    get 'wwhs' do 
+    get 'words' do 
       Markov.adapter.words(params[:word_count])
+    end
+
+    desc "Get wise words from Haldun?"
+    params do 
+      requires :word_count, type: Integer, desc: 'How many words?'
+    end
+    get 'words' do 
+      Markov.adapter.words(params[:word_count])
+    end
+
+    desc "What would Haldun say?"
+    params do 
+      requires :sentence_count, type: Integer, desc: 'How many sentences?'
+    end
+    get 'sentences' do 
+      Markov.adapter.sentences(params[:sentence_count])
     end
   end
 end

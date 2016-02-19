@@ -27,7 +27,14 @@ Add to Haldun's dictionary. The more, the better!
 |------------|--------------------------------------|--------|
 | learn_data | What would you like Haldun to learn? | String |
 
-#### GET `/wwhs`
+#### GET `/words`
+What would Haldun say?
+
+| Parameter  | Description                          | Type   |
+|------------|--------------------------------------|--------|
+| word_count | How many words? | Integer |
+
+#### GET `/sentences`
 What would Haldun say?
 
 | Parameter  | Description                          | Type   |
@@ -37,6 +44,14 @@ What would Haldun say?
 #### Errors
 
 There's a catchall in `Haldunful::V1` that returns a `500` with some info from the thrown exception, in a JSON object.
+
+## Changelog
+
+- 1.0.1
+Rename `wwhs` to `words` and `sentences`. Add support for complete sentence returns.
+
+- 1.0.0
+Initial Release
 
 ## Credits
 This is basically all possible because of [marky-markov](https://github.com/zolrath/marky_markov) and [Grape](https://github.com/zolrath/marky_markov). I just tied it all together.

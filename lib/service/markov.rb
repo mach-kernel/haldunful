@@ -20,7 +20,7 @@ module Service
     end
 
     def sentences(count)
-      @dictionary.generate_n_sentences(count)
+      @dictionary.generate_n_sentences(count.to_i)
     end
 
     def words(count)
