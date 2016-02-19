@@ -39,7 +39,7 @@ What would Haldun say?
 
 | Parameter  | Description                          | Type   |
 |------------|--------------------------------------|--------|
-| word_count | How many words? | Integer |
+| word_count | How many sentences? | Integer |
 
 #### Errors
 
