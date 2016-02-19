@@ -55,6 +55,9 @@ rake learn:from_csv\["/path/to/haldun.csv","http://haldunful.herokuapp.com"\]
 
 ## Changelog
 
+- 1.0.2
+Fix issue with dictionary persistence by adding `dictionaries/.keep`.
+
 - 1.0.1
 Rename `wwhs` to `words` and `sentences`. Add support for complete sentence returns.
 
